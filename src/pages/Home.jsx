@@ -19,27 +19,27 @@ function Home() {
       </h1>
       <div className="mt-10  flex flex-col items-center gap-6 md:mt-24 md:grid md:grid-cols-3 md:grid-rows-2 md:place-items-center">
         <Link to="/people" className={divStyle}>
-          <img src="../public/character.jpg " className={imgStyle} alt="" />
+          <img src="/public/character.jpg " className={imgStyle} alt="" />
           <h3 className={h3Style}>Characters</h3>
         </Link>
         <Link to="/species" className={divStyle}>
-          <img src="../public/species.jpg" className={imgStyle} alt="" />
+          <img src="/public/species.jpg" className={imgStyle} alt="" />
           <h3 className={h3Style}>Species</h3>
         </Link>
         <Link to="/starships" className={divStyle}>
-          <img src="../public/starship.jpg" className={imgStyle} alt="" />
+          <img src="/public/starship.jpg" className={imgStyle} alt="" />
           <h3 className={h3Style}>Starsips</h3>
         </Link>
         <Link to="/vehicles" className={divStyle}>
-          <img src="../public/vehicles.jpg" className={imgStyle} alt="" />
+          <img src="/public/vehicles.jpg" className={imgStyle} alt="" />
           <h3 className={h3Style}>Vehicles</h3>
         </Link>
         <Link to="/planet" className={divStyle}>
-          <img src="../public/planet.png" className={imgStyle} alt="" />
+          <img src="/public/planet.png" className={imgStyle} alt="" />
           <h3 className={h3Style}>Planets</h3>
         </Link>
         <Link to="/films" className={divStyle}>
-          <img src="../public/film.png" className={imgStyle} alt="" />
+          <img src="/public/film.png" className={imgStyle} alt="" />
           <h3 className={h3Style}>Films</h3>
         </Link>
       </div>
