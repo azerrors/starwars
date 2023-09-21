@@ -90,6 +90,24 @@
   background-image: url(../public/bg.jpg);
 }
 
-.homebg{
+.homebg {
   background-image: url(../public/homebg.jpg);
+}
+.peopleBg {
+  background-image: url(../public/character.jpg);
+}
+.speciesBg {
+  background-image: url(../public/species.jpg);
+}
+.starshipBg{
+  background-image: url(../public/starship.jpg);
+}
+.vehiclesBg{
+  background-image: url(../public/vehicles.jpg);
+}
+.planetBg{
+  background-image: url(../public/planet.png);
+}
+.filmBg{
+  background-image: url(../public/film.png);
 }

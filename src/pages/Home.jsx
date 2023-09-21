@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 function Home() {
   const { username } = useStar();
 
-  const imgStyle =
-    "md:w-72  w-56 h-56 md:h-64 rounded-lg hover:filter hover:grayscale transition-all duration-300 ";
+  // const imgStyle =
+  //   "md:w-72  w-56 h-56 md:h-64 rounded-lg hover:filter hover:grayscale transition-all duration-300 ";
   const divStyle =
-    "border md:w-72 flex justify-center items-center hover:scale-[1.02] rounded-lg transition-all duration-300 relative group";
+    "border md:w-72 h-72 flex justify-center items-center hover:scale-[1.02] rounded-lg transition-all duration-300 relative group";
   const h3Style =
     "text-2xl absolute text-center uppercase font-semibold tracking-widest group-hover:flex hidden transition-all duration-300 text-cyan-200 dark:text-yellow-500 ";
 
@@ -18,28 +18,45 @@ function Home() {
         Hello {username ? username : "stranger"}, welcome to star wars fan page
       </h1>
       <div className="mt-10  flex flex-col items-center gap-6 md:mt-24 md:grid md:grid-cols-3 md:grid-rows-2 md:place-items-center">
-        <Link to="/people" className={divStyle}>
-          <img src="public/character.jpg " className={imgStyle} alt="" />
+        <Link
+          to="/people"
+          className={`${divStyle} peopleBg bg-cover bg-center  bg-no-repeat  `}
+        >
           <h3 className={h3Style}>Characters</h3>
         </Link>
-        <Link to="/species" className={divStyle}>
-          <img src="public/species.jpg" className={imgStyle} alt="" />
+
+        <Link
+          to="/species"
+          className={`${divStyle} speciesBg bg-cover bg-center  bg-no-repeat  `}
+        >
           <h3 className={h3Style}>Species</h3>
         </Link>
-        <Link to="/starships" className={divStyle}>
-          <img src="public/starship.jpg" className={imgStyle} alt="" />
+
+        <Link
+          to="/starships"
+          className={`${divStyle} starshipBg bg-cover bg-center bg-no-repeat  `}
+        >
           <h3 className={h3Style}>Starsips</h3>
         </Link>
-        <Link to="/vehicles" className={divStyle}>
-          <img src="public/vehicles.jpg" className={imgStyle} alt="" />
+
+        <Link
+          to="/vehicles"
+          className={`${divStyle} vehiclesBg bg-cover bg-center bg-no-repeat `}
+        >
           <h3 className={h3Style}>Vehicles</h3>
         </Link>
-        <Link to="/planet" className={divStyle}>
-          <img src="public/planet.png" className={imgStyle} alt="" />
+
+        <Link
+          to="/planet"
+          className={`${divStyle} planetBg bg-cover bg-center bg-no-repeat `}
+        >
           <h3 className={h3Style}>Planets</h3>
         </Link>
-        <Link to="/films" className={divStyle}>
-          <img src="public/film.png" className={imgStyle} alt="" />
+
+        <Link
+          to="/films"
+          className={`${divStyle} filmBg bg-cover bg-center bg-no-repeat `}
+        >
           <h3 className={h3Style}>Films</h3>
         </Link>
       </div>
