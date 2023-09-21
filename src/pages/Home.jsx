@@ -7,7 +7,7 @@ function Home() {
   // const imgStyle =
   //   "md:w-72  w-56 h-56 md:h-64 rounded-lg hover:filter hover:grayscale transition-all duration-300 ";
   const divStyle =
-    "border md:w-72 h-72 flex justify-center items-center hover:scale-[1.02] rounded-lg transition-all duration-300 relative group";
+    "border md:w-72 h-72 w-72 flex justify-center items-center hover:scale-[1.02] rounded-lg transition-all duration-300 relative group";
   const h3Style =
     "text-2xl absolute text-center uppercase font-semibold tracking-widest group-hover:flex hidden transition-all duration-300 text-cyan-200 dark:text-yellow-500 ";
 

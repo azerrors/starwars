@@ -23,7 +23,7 @@ function Login() {
         className="md:min-w-96  flex flex-col items-center justify-center space-x-3  border border-gray-800 bg-transparent p-10 shadow-lg md:ml-24 "
       >
         <div className="flex flex-col items-center   justify-center gap-8 md:flex-row">
-          <div className="item-center flex flex-col">
+          <div className="flex flex-col items-center">
             <label className="font mb-3 font-semibold  uppercase tracking-widest text-white">
               What is your name
             </label>
@@ -35,7 +35,7 @@ function Login() {
               className="mb-5 rounded-md border-none px-1 transition-all duration-300 focus:outline-none focus:ring focus:ring-stone-300 md:h-7  md:w-56"
             />
           </div>
-          <div className="flex flex-col">
+          <div className="flex flex-col items-center">
             <label className="font mb-3 font-semibold  uppercase tracking-widest text-white">
               Choose you path
             </label>
@@ -52,7 +52,7 @@ function Login() {
 
         <button
           type="submit"
-          className="transition-color w-56 rounded-lg border border-stone-400 p-2 text-center font-semibold uppercase text-stone-600 shadow-md duration-300  hover:border-gray-200 hover:text-stone-100 md:h-12"
+          className="transition-color w-40 rounded-lg border border-stone-400 p-2 font-semibold uppercase text-stone-600 shadow-md duration-300  hover:border-gray-200 hover:text-stone-100 md:h-12"
         >
           Login
         </button>
