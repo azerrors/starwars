@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 function Login() {
   const [username, setUsername] = useState("");
   const [side, setSide] = useState("dark-side");
-  
+
   const navigate = useNavigate();
   const { dispatch } = useStar();
 
@@ -17,7 +17,7 @@ function Login() {
   }
 
   return (
-    <div className=" flex h-screen items-center   justify-center bg-[url('../../public/bg.jpg')] bg-cover  bg-center bg-no-repeat md:justify-start ">
+    <div className=" loginBG flex h-screen  items-center justify-center  bg-cover  bg-center bg-no-repeat md:justify-start ">
       <form
         onSubmit={handleSubmit}
         className="md:min-w-96  flex flex-col items-center justify-center space-x-3  border border-gray-800 bg-transparent p-10 shadow-lg md:ml-24 "

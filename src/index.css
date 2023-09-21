@@ -86,4 +86,6 @@
     transform: rotate(360deg);
   }
 }
-
+.loginBG {
+  background-image: url(../public/bg.jpg);
+}

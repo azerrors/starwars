@@ -13,7 +13,7 @@ function Home() {
 
   return (
     <div className="relative h-[52rem]">
-      <div className="absolute left-0 top-0 h-full w-full bg-[url('../../public/homebg.jpg')] bg-cover bg-center bg-no-repeat mix-blend-soft-light blur-sm dark:mix-blend-difference"></div>
+      <div className=" absolute left-0 top-0 h-full w-full bg-[url('../../public/homebg.jpg')] bg-cover bg-center bg-no-repeat mix-blend-soft-light blur-sm dark:mix-blend-difference"></div>
       <h1 className="relative p-5 text-center text-xl  font-semibold uppercase tracking-widest text-cyan-500 dark:text-yellow-400 md:text-2xl">
         Hello {username ? username : "stranger"}, welcome to star wars fan page
       </h1>
