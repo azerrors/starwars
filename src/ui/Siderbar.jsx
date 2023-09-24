@@ -4,7 +4,7 @@ import { IoMdClose } from "react-icons/io";
 import Info from "./Info";
 import Logo from "./Logo";
 import MainNav from "./MainNav";
-import Theme from "./Theme";
+// import Theme from "./Theme";
 import FavIcon from "./FavIcon";
 
 function Siderbar() {
@@ -23,7 +23,6 @@ function Siderbar() {
       <Logo />
       <MainNav />
       <div className="flex justify-around">
-        <Theme />
         <FavIcon />
       </div>
       <Info />

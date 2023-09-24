@@ -22,14 +22,14 @@ function Theme() {
       {theme !== "dark" ? (
         <>
           <HiOutlineMoon
-            className="mt-24 cursor-pointer  text-3xl text-cyan-600 hover:text-cyan-400"
+            className="mr-8 cursor-pointer text-xl  text-cyan-600 hover:text-cyan-400 md:text-3xl"
             onClick={handleSetTheme}
           />
         </>
       ) : (
         <>
           <HiOutlineSun
-            className="mt-24 cursor-pointer text-3xl text-yellow-400 hover:text-yellow-500"
+            className="mr-8 cursor-pointer text-xl text-yellow-400 hover:text-yellow-500 md:text-3xl"
             onClick={handleSetTheme}
           />
         </>

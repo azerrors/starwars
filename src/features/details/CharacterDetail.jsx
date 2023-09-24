@@ -31,7 +31,6 @@ function CharacterDetail({ id }) {
     );
 
   if (characterIdData) {
-
     // destructuring  variables from characterIdData
     const {
       name,
@@ -55,17 +54,17 @@ function CharacterDetail({ id }) {
     const { image: homeworldImg } = getImages(homeworld, "planets");
 
     //turns url arrays to strings
+
     const favUrl = favouriteData
       .map((data) => {
         return data.url;
       })
       .join(", ");
-
     //getting id from given character url
     const { ID: currID } = getImages(favUrl, "character");
-
     //checking that identities are the same
     const same = ID === currID;
+
 
     //styles
     const h3Style =
@@ -88,7 +87,6 @@ function CharacterDetail({ id }) {
       //react hot toast
       toast.error(` successfully deleted from your favorites`);
     };
-
     return (
       <div>
         {/* 3/1 */}
@@ -152,7 +150,7 @@ function CharacterDetail({ id }) {
         </div>
 
         {/* more info */}
-        <div className="md:grid-cols-4 grid min-h-[20rem]  gap-3  bg-sky-300 dark:bg-third">
+        <div className="grid min-h-[20rem] gap-3  bg-sky-300  dark:bg-third md:grid-cols-4">
           <div>
             <h3 className="border-b p-2 text-center font-medium dark:border-yellow-400   dark:text-text">
               HOMEWORLD

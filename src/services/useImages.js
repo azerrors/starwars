@@ -1,3 +1,4 @@
+
 const BASE = "https://starwars-visualguide.com/assets/img/";
 
 export function getImages(url, category) {
